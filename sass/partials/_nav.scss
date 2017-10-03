@@ -1,6 +1,7 @@
 .nav {
   display: flex;
   justify-content: center;
+  background-color: $navcolor;
   &__items {
     &-list {
       display: flex;

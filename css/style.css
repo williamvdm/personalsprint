@@ -566,7 +566,8 @@ h6 {
 
 .nav {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #f4f4f4; }
   .nav__items-list {
     display: flex;
     flex-direction: row;
