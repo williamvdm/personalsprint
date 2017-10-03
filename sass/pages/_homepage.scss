@@ -5,20 +5,29 @@
 .infoblocks {
   display: flex;
   flex-direction: row;
-  .block {
+  .info {
     @include rectangle-block;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    &--left {
+    &__left {
       background-color: #676767;
+      img:hover {
+        opacity: 0.5;
+      }
     }
-    &--center {
+    &__center {
       background-color: #7d7d7d;
+      img:hover {
+        opacity: 0.5;
+      }
     }
-    &--right {
+    &__right {
       background-color: #999999;
+      img:hover {
+        opacity: 0.5;
+      }
     }
   }
 }
@@ -29,7 +38,7 @@
   flex-direction: column;
 
   &__title {
-    font-size: 20px;
+    font-size: 5vh;
     text-align: center;
 
   }

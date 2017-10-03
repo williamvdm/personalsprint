@@ -658,26 +658,32 @@ h6 {
 .infoblocks {
   display: flex;
   flex-direction: row; }
-  .infoblocks .block {
+  .infoblocks .info {
     width: 33.3333333333%;
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; }
-    .infoblocks .block--left {
+    .infoblocks .info__left {
       background-color: #676767; }
-    .infoblocks .block--center {
+      .infoblocks .info__left img:hover {
+        opacity: 0.5; }
+    .infoblocks .info__center {
       background-color: #7d7d7d; }
-    .infoblocks .block--right {
+      .infoblocks .info__center img:hover {
+        opacity: 0.5; }
+    .infoblocks .info__right {
       background-color: #999999; }
+      .infoblocks .info__right img:hover {
+        opacity: 0.5; }
 
 .introduction {
   display: flex;
   justify-content: center;
   flex-direction: column; }
   .introduction__title {
-    font-size: 20px;
+    font-size: 5vh;
     text-align: center; }
   .introduction .introduction__containter {
     width: 90%;
