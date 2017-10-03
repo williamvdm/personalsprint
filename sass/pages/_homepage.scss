@@ -1,0 +1,46 @@
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+.infoblocks {
+  display: flex;
+  flex-direction: row;
+  .block {
+    @include rectangle-block;
+    &--left {
+      background-color: #676767;
+    }
+    &--center {
+      background-color: #7d7d7d;
+    }
+    &--right {
+      background-color: #999999;
+    }
+  }
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__title {
+    font-size: 20px;
+    text-align: center;
+
+  }
+  .introduction__containter {
+    width: 90%;
+    flex-direction: row;
+
+    .introduction__article {
+      font-size: 14px;
+
+      p {
+        width: 50%;
+        flex-direction: row;
+
+      }
+    }
+  }
+}

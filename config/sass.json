@@ -1,0 +1,10 @@
+{
+  "dist": {
+    "options": {
+      "style": "expanded"
+    },
+    "files": {
+      "stylesheets/app.css": "sass/style.scss"
+    }
+  }
+}

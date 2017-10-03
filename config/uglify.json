@@ -1,0 +1,9 @@
+{
+  "my_target": {
+    "files": {
+      "dest/output.min.js": [
+
+      ]
+    }
+  }
+}
